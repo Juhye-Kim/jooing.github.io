@@ -1,0 +1,44 @@
+I"�	<p style="display: block; margin-top: 0px; margin-bottom: 40px"> </p>
+
+<h4 id="이전-블로그">이전 블로그</h4>
+
+<p style="display: block; margin-top: 0px; margin-bottom: 12px"> </p>
+
+<ul>
+  <li><a href="https://joooing.tistory.com/">📔 jooing.tistory</a> <br /></li>
+</ul>
+
+<p style="display: block; margin-top: 0px;margin-bottom: 40px"> </p>
+
+<h4 id="tech-stack">Tech Stack</h4>
+
+<p style="display: block; margin-top: 0px; margin-bottom: 12px"> </p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">hk_stacks</span> <span class="o">=</span> <span class="nx">stack</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">switch</span> <span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="na">개발_언어</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`Javascript, Typescript`</span><span class="p">;</span>
+
+    <span class="k">case</span> <span class="na">개발_환경</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`NPM, Webpack, Babel, ESLint, Jest`</span><span class="p">;</span>
+
+    <span class="k">case</span> <span class="na">Front_End</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`React, Vue, Redux, Styled-Components`</span><span class="p">;</span>
+
+    <span class="k">case</span> <span class="na">Back_End</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`Node.js, Express.js`</span><span class="p">;</span>
+
+    <span class="k">case</span> <span class="na">Database</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`MySQL, Sequelize, MongoDB, Mongoose`</span><span class="p">;</span>
+
+    <span class="k">case</span> <span class="na">Deploy</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`EC2, S3, RDS, Route53`</span><span class="p">;</span>
+
+    <span class="nl">default</span><span class="p">:</span>
+      <span class="k">return</span> <span class="s2">`Github, Notion, Slack, Sketch, Zeplin`</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p style="display: block; margin-top: 0px; margin-bottom: 12px"> </p>
+:ET
